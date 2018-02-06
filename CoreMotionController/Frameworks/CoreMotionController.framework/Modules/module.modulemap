@@ -1,0 +1,11 @@
+framework module CoreMotionController {
+  umbrella header "CoreMotionController.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreMotionController.Swift {
+    header "CoreMotionController-Swift.h"
+    requires objc
+}
